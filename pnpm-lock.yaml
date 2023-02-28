@@ -132,8 +132,8 @@ importers:
         specifier: 2.0.0-beta.61
         version: 2.0.0-beta.61(@vuepress/client@2.0.0-beta.61)(vue@3.2.47)
       vuepress-plugin-redirect:
-        specifier: 2.0.0-beta.183
-        version: 2.0.0-beta.183(vuepress-shared@2.0.0-beta.183)(vuepress@2.0.0-beta.61)
+        specifier: 2.0.0-beta.185
+        version: 2.0.0-beta.185(vuepress-shared@2.0.0-beta.183)(vuepress@2.0.0-beta.61)
       vuepress-shared:
         specifier: 2.0.0-beta.183
         version: 2.0.0-beta.183(@vuepress/client@2.0.0-beta.61)(vuepress@2.0.0-beta.61)
@@ -4159,7 +4159,7 @@ packages:
       '@babel/plugin-syntax-typescript': 7.20.0(@babel/core@7.21.0)
       '@vanilla-extract/babel-plugin-debug-ids': 1.0.1
       '@vanilla-extract/css': 1.9.5
-      esbuild: 0.16.3
+      esbuild: 0.16.17
       eval: 0.1.6
       find-up: 5.0.0
       javascript-stringify: 2.1.0
@@ -16977,13 +16977,13 @@ packages:
       vuepress-shared: 2.0.0-beta.183(@vuepress/client@2.0.0-beta.61)(vuepress@2.0.0-beta.61)
     dev: true
 
-  /vuepress-plugin-redirect@2.0.0-beta.183(vuepress-shared@2.0.0-beta.183)(vuepress@2.0.0-beta.61):
-    resolution: {integrity: sha512-YBQZLnhb0k3/+IXGCP8L9LeGgWF68NQHq4U9QvS6w+u5yYbvRe9X9XjW730t5GKgQuuUyQcsZo3dwAyyK9Ibew==}
+  /vuepress-plugin-redirect@2.0.0-beta.185(vuepress-shared@2.0.0-beta.183)(vuepress@2.0.0-beta.61):
+    resolution: {integrity: sha512-Cavtg9yJI68GxnKoVzPODU5OMEzfRQLmMrDyA39dz6FuTsCj8sckRYToJApm7lMLcSstwiS97u7EB4EL4z1tqA==}
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     hasBin: true
     peerDependencies:
       vuepress: 2.0.0-beta.61
-      vuepress-shared: 2.0.0-beta.183
+      vuepress-shared: 2.0.0-beta.185
       vuepress-vite: 2.0.0-beta.61
       vuepress-webpack: 2.0.0-beta.61
     peerDependenciesMeta:
